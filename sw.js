@@ -1,6 +1,6 @@
 /* Lumos Music service worker: keeps the app shell available offline.
    Music and API requests (other domains) are never touched. */
-const CACHE = "lumos-music-v5";
+const CACHE = "lumos-music";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-192.png", "icons/logo-128.png", "icons/favicon.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", e => {

@@ -1,6 +1,6 @@
 {
   "name": "Lumos Music",
-  "short_name": "Lumos",
+  "short_name": "Lumos Music", 
   "description": "Ad-free music player with offline downloads",
   "id": "./",
   "start_url": "./index.html",
